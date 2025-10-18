@@ -1,6 +1,6 @@
 import { InputControl, InputPrefix, InputRoot } from '@/components/Input'
 import { SettingsTabs } from '@/components/SettingsTabs'
-import { FileImage, Mail } from 'lucide-react'
+import { Mail } from 'lucide-react'
 import * as FileInput from '@/components/Form/FileInput'
 
 export default function Home() {
@@ -169,6 +169,8 @@ export default function Home() {
 
             <FileInput.Root>
               <FileInput.Trigger />
+              <FileInput.FileList />
+
               <FileInput.Control multiple />
             </FileInput.Root>
           </div>
